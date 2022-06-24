@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import '../pages/heroi.scss'
 
 
-import { inserirHeroi, listarTodosHeroi  } from '../api/petApi'
+import { inserirHeroi, listarTodosHeroi  } from '../api/heroiApi'
 
 
 export default function Index(){
