@@ -37,7 +37,7 @@ export default function Index(){
         <input type='text' placeholder='poder do heroi' value={superPoder} onChange={e=> setPoder(e.target.value)}/>
         <input type='text' placeholder='voa o heroi' checked={voa} onChange={e=> setVoa(e.target.checked)}/>
 
-        <div>
+        <div className='botao'>
             <button onClick={salvarClick}>Registrar</button>
         </div>
 
